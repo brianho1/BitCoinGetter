@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99936F68-ADEA-4E2A-8952-503600127FE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BitCoinGetter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D94866B83FF78EAC4448278923A5536F78A8D28B</key>
+		<string>https://github.com/kumok/BitCoinGetter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BitCoinGetter.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D94866B83FF78EAC4448278923A5536F78A8D28B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kumok/BitCoinGetter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D94866B83FF78EAC4448278923A5536F78A8D28B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D94866B83FF78EAC4448278923A5536F78A8D28B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BitCoinGetter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
