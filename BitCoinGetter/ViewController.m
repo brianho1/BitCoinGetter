@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BCController.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[BCController sharedInstance] getCurrentPrice:^(BCBitCoin *bitcoin) {
+        NSLog(@"%@",bitcoin.currentPrice);
+    }];
+
 }
 
 - (void)didReceiveMemoryWarning {
