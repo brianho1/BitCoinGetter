@@ -11,6 +11,8 @@
 @interface BCBitCoin : NSObject
 
 @property (nonatomic) NSString* currentPrice;
+@property (nonatomic) NSDictionary* pastPrices;
+
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 
 

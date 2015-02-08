@@ -8,7 +8,7 @@
 
 #import "BCController.h"
 #import "BCNetworkController.h"
-#import "BCBitCoin.h"
+
 
 @implementation BCController
 
@@ -28,22 +28,52 @@
 //    NSString * endDate = @"2015-01-08";
 //    NSString *data = [NSString stringWithFormat:@"select * from yahoo.finance.historicaldata where symbol in (\"YHOO\") and startDate = \"%@\" and endDate = \"%@\"",startDate, endDate];
     
-    NSString *pathCurrentPrice = [NSString stringWithFormat:@"currentprice.json"];
-    
+    NSString * pathCurrentPrice = [NSString stringWithFormat:@"bpi/currentprice.json"];
     
     [[BCNetworkController api] GET:pathCurrentPrice parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         NSDictionary *responseBitCoin = responseObject;
-        
         BCBitCoin * w = [[BCBitCoin alloc] initWithDictionary:responseBitCoin];
-        getCurrentPrice(w);
+        self.bc = w;
         
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         getCurrentPrice(nil);
     }];
+    
+    NSString * startDate = @"2015-01-01";
+    NSString * endDate = @"2015-01-08";
+    
+    NSString * path= [NSString stringWithFormat:@"bpi/historical/close.json?start=%@&end=%@", startDate, endDate];
+    
+    
+    [[BCNetworkController api] GET:path parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSDictionary *responseBitCoin = responseObject;
+        self.bc.pastPrices = responseBitCoin;
+        getCurrentPrice(self.bc);
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        getCurrentPrice(nil);
+    }];
+
 }
 
 - (void)getLastWeekPrices:(void (^)(BCBitCoin *bitcoin))getLastWeekPrices {
+
+    NSString * startDate = @"2015-01-01";
+    NSString * endDate = @"2015-01-08";
+
+    NSString * pathCurrentPrice = [NSString stringWithFormat:@"bpi/historical/close.json?start=%@&end=%@", startDate, endDate];
     
+    
+    [[BCNetworkController api] GET:pathCurrentPrice parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSDictionary *responseBitCoin = responseObject;
+        self.bc.pastPrices = [NSDictionary new];
+        self.bc.pastPrices = responseBitCoin;
+        getLastWeekPrices(self.bc);
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        getLastWeekPrices(nil);
+    }];
+
 }
 
 

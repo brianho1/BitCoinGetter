@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94696EFFB907DCAE5A4A72CB /* libPods-BitCoinGetter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C49BFD8468CCB5C06ECEFB /* libPods-BitCoinGetter.a */; };
+		EA2893EE1A8699460019B62B /* JSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2893ED1A8699460019B62B /* JSONSerializer.m */; };
 		EAE32ECF1A86874F00CDF37F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ECE1A86874F00CDF37F /* main.m */; };
 		EAE32ED21A86874F00CDF37F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ED11A86874F00CDF37F /* AppDelegate.m */; };
 		EAE32ED51A86874F00CDF37F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ED41A86874F00CDF37F /* ViewController.m */; };
@@ -34,6 +35,8 @@
 		4DE8F7E702C4391F0B4562F3 /* Pods-BitCoinGetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinGetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinGetter/Pods-BitCoinGetter.release.xcconfig"; sourceTree = "<group>"; };
 		57FA481CCDBE3D20BF5BE6FB /* Pods-BitCoinGetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinGetter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinGetter/Pods-BitCoinGetter.debug.xcconfig"; sourceTree = "<group>"; };
 		84C49BFD8468CCB5C06ECEFB /* libPods-BitCoinGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitCoinGetter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2893EC1A8699460019B62B /* JSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSerializer.h; sourceTree = "<group>"; };
+		EA2893ED1A8699460019B62B /* JSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSerializer.m; sourceTree = "<group>"; };
 		EAE32EC91A86874F00CDF37F /* BitCoinGetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinGetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE32ECD1A86874F00CDF37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE32ECE1A86874F00CDF37F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				EAE32ED91A86874F00CDF37F /* Images.xcassets */,
 				EAE32EDB1A86874F00CDF37F /* LaunchScreen.xib */,
 				EAE32ECC1A86874F00CDF37F /* Supporting Files */,
+				EA2893EC1A8699460019B62B /* JSONSerializer.h */,
+				EA2893ED1A8699460019B62B /* JSONSerializer.m */,
 			);
 			path = BitCoinGetter;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				EAE32EFA1A868AFD00CDF37F /* BCBitCoin.m in Sources */,
 				EAE32EF41A86897A00CDF37F /* BCNetworkController.m in Sources */,
 				EAE32EF71A868A6800CDF37F /* BCController.m in Sources */,
+				EA2893EE1A8699460019B62B /* JSONSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

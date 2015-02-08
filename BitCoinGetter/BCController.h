@@ -12,6 +12,7 @@
 
 @interface BCController : NSObject
 
+@property (strong, nonatomic) BCBitCoin *bc;
 
 + (BCController *)sharedInstance;
 

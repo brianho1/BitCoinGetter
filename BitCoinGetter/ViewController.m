@@ -11,6 +11,7 @@
 
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *currentPriceLabel;
 
 @end
 
@@ -21,8 +22,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     [[BCController sharedInstance] getCurrentPrice:^(BCBitCoin *bitcoin) {
         NSLog(@"%@",bitcoin.currentPrice);
+        self.currentPriceLabel.text = bitcoin.currentPrice;
+        NSLog(@"%@",bitcoin.pastPrices);
+        NSDictionary *listPrices = bitcoin.pastPrices[@"bpi"];
+        NSLog(@"%@", listPrices);
     }];
-
+    
 }
 
 - (void)didReceiveMemoryWarning {

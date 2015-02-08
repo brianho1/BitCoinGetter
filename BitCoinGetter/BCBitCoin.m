@@ -15,6 +15,7 @@
     self = [super init];
     if (self) {
         self.currentPrice = [dictionary[@"bpi"][@"USD"] objectForKey:@"rate"];
+        self.pastPrices = nil;
     }
     return self;
 }
