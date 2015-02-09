@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		94696EFFB907DCAE5A4A72CB /* libPods-BitCoinGetter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C49BFD8468CCB5C06ECEFB /* libPods-BitCoinGetter.a */; };
 		EA2893EE1A8699460019B62B /* JSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2893ED1A8699460019B62B /* JSONSerializer.m */; };
+		EA2893F81A86E1AB0019B62B /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2893F11A86E1AB0019B62B /* PopoverView.m */; };
+		EA2893F91A86E1AB0019B62B /* SHLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2893F51A86E1AB0019B62B /* SHLineGraphView.m */; };
+		EA2893FA1A86E1AB0019B62B /* SHPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2893F71A86E1AB0019B62B /* SHPlot.m */; };
+		EA2893FC1A86E26B0019B62B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2893FB1A86E26B0019B62B /* CoreGraphics.framework */; };
+		EA2893FE1A86E2800019B62B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2893FD1A86E2800019B62B /* UIKit.framework */; };
+		EA2894001A86E32E0019B62B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2893FF1A86E32E0019B62B /* Foundation.framework */; };
+		EA2894031A86E71C0019B62B /* BCGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2894021A86E71C0019B62B /* BCGraphViewController.m */; };
 		EAE32ECF1A86874F00CDF37F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ECE1A86874F00CDF37F /* main.m */; };
 		EAE32ED21A86874F00CDF37F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ED11A86874F00CDF37F /* AppDelegate.m */; };
 		EAE32ED51A86874F00CDF37F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE32ED41A86874F00CDF37F /* ViewController.m */; };
@@ -37,6 +44,19 @@
 		84C49BFD8468CCB5C06ECEFB /* libPods-BitCoinGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitCoinGetter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2893EC1A8699460019B62B /* JSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSerializer.h; sourceTree = "<group>"; };
 		EA2893ED1A8699460019B62B /* JSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSerializer.m; sourceTree = "<group>"; };
+		EA2893F01A86E1AB0019B62B /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		EA2893F11A86E1AB0019B62B /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		EA2893F21A86E1AB0019B62B /* PopoverView_Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView_Configuration.h; sourceTree = "<group>"; };
+		EA2893F31A86E1AB0019B62B /* PopoverViewCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCompatibility.h; sourceTree = "<group>"; };
+		EA2893F41A86E1AB0019B62B /* SHLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLineGraphView.h; sourceTree = "<group>"; };
+		EA2893F51A86E1AB0019B62B /* SHLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLineGraphView.m; sourceTree = "<group>"; };
+		EA2893F61A86E1AB0019B62B /* SHPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPlot.h; sourceTree = "<group>"; };
+		EA2893F71A86E1AB0019B62B /* SHPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPlot.m; sourceTree = "<group>"; };
+		EA2893FB1A86E26B0019B62B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2893FD1A86E2800019B62B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2893FF1A86E32E0019B62B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2894011A86E71C0019B62B /* BCGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCGraphViewController.h; sourceTree = "<group>"; };
+		EA2894021A86E71C0019B62B /* BCGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCGraphViewController.m; sourceTree = "<group>"; };
 		EAE32EC91A86874F00CDF37F /* BitCoinGetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinGetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE32ECD1A86874F00CDF37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE32ECE1A86874F00CDF37F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2894001A86E32E0019B62B /* Foundation.framework in Frameworks */,
+				EA2893FE1A86E2800019B62B /* UIKit.framework in Frameworks */,
+				EA2893FC1A86E26B0019B62B /* CoreGraphics.framework in Frameworks */,
 				94696EFFB907DCAE5A4A72CB /* libPods-BitCoinGetter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,9 +112,27 @@
 		708668DFC59D8149525B42EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA2893FF1A86E32E0019B62B /* Foundation.framework */,
+				EA2893FD1A86E2800019B62B /* UIKit.framework */,
+				EA2893FB1A86E26B0019B62B /* CoreGraphics.framework */,
 				84C49BFD8468CCB5C06ECEFB /* libPods-BitCoinGetter.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2893EF1A86E1AB0019B62B /* SHLineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				EA2893F01A86E1AB0019B62B /* PopoverView.h */,
+				EA2893F11A86E1AB0019B62B /* PopoverView.m */,
+				EA2893F21A86E1AB0019B62B /* PopoverView_Configuration.h */,
+				EA2893F31A86E1AB0019B62B /* PopoverViewCompatibility.h */,
+				EA2893F41A86E1AB0019B62B /* SHLineGraphView.h */,
+				EA2893F51A86E1AB0019B62B /* SHLineGraphView.m */,
+				EA2893F61A86E1AB0019B62B /* SHPlot.h */,
+				EA2893F71A86E1AB0019B62B /* SHPlot.m */,
+			);
+			path = SHLineGraphView;
 			sourceTree = "<group>";
 		};
 		EAE32EC01A86874F00CDF37F = {
@@ -117,6 +158,7 @@
 		EAE32ECB1A86874F00CDF37F /* BitCoinGetter */ = {
 			isa = PBXGroup;
 			children = (
+				EA2893EF1A86E1AB0019B62B /* SHLineGraphView */,
 				EAE32ED01A86874F00CDF37F /* AppDelegate.h */,
 				EAE32ED11A86874F00CDF37F /* AppDelegate.m */,
 				EAE32ED31A86874F00CDF37F /* ViewController.h */,
@@ -128,6 +170,8 @@
 				EAE32EF81A868AFD00CDF37F /* BCBitCoin.h */,
 				EAE32EF91A868AFD00CDF37F /* BCBitCoin.m */,
 				EAE32ED61A86874F00CDF37F /* Main.storyboard */,
+				EA2894011A86E71C0019B62B /* BCGraphViewController.h */,
+				EA2894021A86E71C0019B62B /* BCGraphViewController.m */,
 				EAE32ED91A86874F00CDF37F /* Images.xcassets */,
 				EAE32EDB1A86874F00CDF37F /* LaunchScreen.xib */,
 				EAE32ECC1A86874F00CDF37F /* Supporting Files */,
@@ -299,11 +343,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE32ED51A86874F00CDF37F /* ViewController.m in Sources */,
+				EA2894031A86E71C0019B62B /* BCGraphViewController.m in Sources */,
 				EAE32ED21A86874F00CDF37F /* AppDelegate.m in Sources */,
 				EAE32ECF1A86874F00CDF37F /* main.m in Sources */,
 				EAE32EFA1A868AFD00CDF37F /* BCBitCoin.m in Sources */,
 				EAE32EF41A86897A00CDF37F /* BCNetworkController.m in Sources */,
+				EA2893FA1A86E1AB0019B62B /* SHPlot.m in Sources */,
+				EA2893F91A86E1AB0019B62B /* SHLineGraphView.m in Sources */,
 				EAE32EF71A868A6800CDF37F /* BCController.m in Sources */,
+				EA2893F81A86E1AB0019B62B /* PopoverView.m in Sources */,
 				EA2893EE1A8699460019B62B /* JSONSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
